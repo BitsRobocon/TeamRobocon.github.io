@@ -1,7 +1,7 @@
 ﻿<?php
 
 
-$siteOwnersEmail = ' bitsrobocon@gmail.com';
+$siteOwnersEmail = 'bitsrobocon@gmail.com';
 
 
 if($_POST) {
