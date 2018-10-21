@@ -30,11 +30,61 @@ document.addEventListener('DOMContentLoaded',function(){Typed.new("#typed",{stri
 .typed-cursor{color:teal;opacity:1;font-size:5vh;font-weight:100;-webkit-animation:blink 0.7s infinite;-moz-animation:blink 0.7s infinite;-ms-animation:blink 0.7s infinite;-o-animation:blink 0.7s infinite;animation:blink 0.7s infinite}@-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-webkit-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-moz-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-ms-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-o-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}.typed-fade-out{opacity:0;animation:0;transition:opacity .25s}#typed{white-space:pre;font-size:3vh;color:white;font-weight:bold}</style>
 </head>
 <body id="top">
+<header>
+<div class="header-logo">
+ <a href="index.html">
+Team Robocon</a>
+</div>
+<a id="header-menu-trigger" href="#0">
+ <span class="header-menu-text">
+Menu</span>
+ <span class="header-menu-icon">
+</span>
+ </a>
+<nav id="menu-nav-wrap">
+<a href="#0" class="close-button" title="close">
+<span>
+Close</span>
+</a>
+<h3>
+Team Robocon</h3>
+<ul class="nav-list">
+<li class="current">
+<a href="index.html#home" title="">
+Home</a>
+</li>
+<li>
+<a href="team.html" title="">
+Team</a>
+</li>
+<ul class="header-social-list">
+<li>
+ <a href="https://www.facebook.com/bitspilanirobocon/">
+<i class="fa fa-facebook-square">
+</i>
+</a>
+</li>
+<li>
+ <a href="https://www.youtube.com/channel/UC-Ews2i7MBHdyIepKP6vqdA">
+<i class="fa fa-youtube">
+</i>
+</a>
+</li>
+<li>
+ <a href="https://github.com/BitsRobocon">
+<i class="fa fa-github">
+</i>
+</a>
+</li>
+</ul>
+</nav>
+</header>
 <section id="team">
 <div class="overlay">
 </div>
 <div class="row narrow section-intro with-bottom-sep animate-this">
 <div class="col-twelve">
+
 <h1>
 The Team</h1>
 <p style="color: white">Our team consists of three tiers-Seniors (Third yearites), Sophomores (Second yearites) and Freshers (First yearites).</p>
@@ -192,4 +242,21 @@ The Sophomores</h3>
 </div>
 </div>
  </section>
+ <div id="go-top">
+  <a class="smoothscroll" title="Back to Top" href="#top">
+  <i class="fa fa-long-arrow-up" aria-hidden="true">
+ </i>
+  </a>
+ </div>
+  </footer>
+ <div id="preloader">
+ <div id="loader">
+ </div>
+ </div>
+  <script src="js/jquery-2.1.3.min.js">
+ </script>
+  <script src="js/plugins.js">
+ </script>
+  <script src="js/main.js">
+ </script>
 </body>
