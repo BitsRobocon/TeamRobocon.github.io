@@ -28,6 +28,8 @@ Team Robocon</title>
 document.addEventListener('DOMContentLoaded',function(){Typed.new("#typed",{stringsElement:document.getElementById('typed-strings'),typeSpeed:10,backDelay:1000,loop:true,contentType:'html',loopCount:null,callback:function(){foo();},resetCallback:function(){newTyped();}});var resetElement=document.querySelector('.reset');if(resetElement){resetElement.addEventListener('click',function(){document.getElementById('typed')._typed.reset();});}});function newTyped(){} function foo(){console.log("Callback");}</script>
  <style>
 .typed-cursor{color:teal;opacity:1;font-size:5vh;font-weight:100;-webkit-animation:blink 0.7s infinite;-moz-animation:blink 0.7s infinite;-ms-animation:blink 0.7s infinite;-o-animation:blink 0.7s infinite;animation:blink 0.7s infinite}@-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-webkit-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-moz-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-ms-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-o-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}.typed-fade-out{opacity:0;animation:0;transition:opacity .25s}#typed{white-space:pre;font-size:3vh;color:white;font-weight:bold}</style>
+{% include head.html %}
+{% seo %}
 </head>
 <body id="top">
 <header>
