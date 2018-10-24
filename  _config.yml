@@ -1,2 +1,9 @@
+title: Team Robocon BITS Pilani
+description: We are a group of enthusiasts who design and build robots to compete in various competitions.
+
+permalink: pretty
+
 plugins:
   - jekyll-seo-tag
+
+theme: jekyll-theme-primer
